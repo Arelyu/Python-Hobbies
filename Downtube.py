@@ -1,3 +1,6 @@
+# Este script descarga un video de youtube
+# Extrae el audio en formato mp3 y elimina el video despues de la conversion
+
 import tkinter as tk # tkinter para la interfaz grafica
 from tkinter import filedialog # filedialog para los dialogos de abrir y guardar archivo
 from pytube import YouTube # pytube para descargar video y audio de youtube
